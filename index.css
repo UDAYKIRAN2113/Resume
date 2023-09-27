@@ -1,0 +1,414 @@
+body {
+	margin: 0px;
+}
+
+/*Body Header*/
+#body-header {
+	height: 60vh;
+	opacity: 0.8;
+	background-image: url(https://i1.wp.com/interweb.de/wp-content/uploads/2018/01/macbook-mouse.jpg?ssl=1);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/*Horizontal Lists*/
+
+.horizontal-list {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+
+}
+.horizontal-list li{
+	display: inline-block;
+	margin: 20px 8px 8px 0px;
+	font-weight: 100;
+	font-size: 1.2rem;
+
+}
+.horizontal-list li a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+.nav-menu li a{
+
+	transition: color 0.5s, border-bottom 4s;
+}
+.nav-menu li a:hover {
+	color:lightgrey;
+	/*text-decoration: underline;*/
+	border-bottom: 1px solid black;
+}
+.text-center{
+	text-align: center;
+	/*font-size: 20px;
+	font-weight: 50;*/
+	word-spacing: 25px;
+
+}
+
+/*Name and Social Icons*/
+#name-social-container{
+	margin-top: 20vh;
+}
+
+#my-name{
+	font-size:3rem;
+	letter-spacing: 0.1rem;
+	color:white;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+/*Social icons*/
+
+.social-icons li a i{
+	color: lightgrey;
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 50%;
+}
+
+.social-icons li a i:hover{
+	box-shadow:0px 0px 6px 4px rgba(230,196,196,0.3);
+}
+
+/*SECTION*/
+
+section{
+	width: 100%;
+	/*height: 75vh;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+section:nth-child(2n){
+	background-color: #F5F5F5;
+}
+section:nth-child(2n+1){
+	background-color: white;
+}
+
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	/*margin: 10px auto;*/
+	font-weight: 400;
+}
+
+
+.section-heading span {
+
+	font-size: 40px;
+	color:#4D3C77;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: 0.5rem;
+
+}
+
+/*About Section*/
+
+#about{
+	height: auto;
+	width:100%;
+	position: relative;
+}
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin:auto;
+	margin-top: -9vh;
+}
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	 box-shadow: 0px 0px 10px 6px #DDE6ED;
+	/*position: center;*/
+}
+#about-para{
+    font-size: 1.1rem;
+    font-weight: 100;
+    text-justify: auto;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-align: justify;
+    margin: auto;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+
+}
+
+/*SKILLS SECTION*/
+
+.skills-display{
+	width: 70%;
+	/*height:100%;*/
+	/*border: 2px solid black;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+
+
+/*Common color classes*/
+
+.mb75px{
+	margin-bottom: 75px;
+}
+
+#skills-img{
+height: 40px;
+width: 40px;
+background: linear-gradient(to right bottom);
+}
+/* for Java */
+.skills-display{
+    width: 70%;
+    /* height: 400px;
+    border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.skills-progress{
+    width: 7rem;
+    height: 1.4rem;
+    background-color: lightgrey;
+    border-radius: 0.8rem;
+    /*border: 2px solid black;*/
+    margin: 1rem;
+}
+.mbblue{
+    background-color: blue;
+}
+.skill-name {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
+}
+
+/* for DSA */
+.sixty-five-percent{
+    width: 65%;
+    height: inherit;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
+}
+.mborange{
+  background-color: rgb(219, 165, 67);
+}
+
+/* for Html */
+.ninety-five-percent{
+    width: 95%;
+    height: inherit;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
+}
+.mbgreen{
+  background-color: rgb(81, 213, 55);
+}
+
+/* for Spring Boot */
+.seventy-five-percent{
+    width: 75%;
+    height: inherit;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
+}
+.mbyellow{
+  background-color: rgb(180, 204, 47);
+}
+
+/* for mysql */
+
+.mbredish{
+    background-color: rgb(235, 171, 171);
+}
+
+/* for javascript */
+.mbcolor{
+    background-color: #8294C4;
+}
+
+/* for React */
+.mbr{
+    background-color: #7590db;
+}
+/* for node js */
+
+.eighty-percent{
+    width: 80%;
+    height: inherit;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
+}
+.mbrr{
+  background-color: rgb(228, 65, 116);
+}
+
+
+/*Experience*/
+
+/*Timeline*/
+
+.timeline{
+	position: relative;
+	width: 75%;
+	border: 2px solid black;
+}
+
+.timeline-box{
+	position: relative;
+	margin: 5px;
+	width: 40%;
+	left: 50%;
+	min-height: 150px;
+	border: 2px solid black;
+}
+
+.timeline-box:nth-child(2n){
+	left: 55%;
+}
+.timeline-box:nth-child(2n+1){
+	left: 3%;
+}
+
+.timeline-box:nth-child(2n+1)::after{
+	content: '';
+	position: absolute;
+	top: 40%;
+	border-radius: 50%;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: red;
+	/*left: 50%;*/
+	right: -17.5%;
+	z-index: 3;
+}
+.timeline-box:nth-child(2n)::after{
+	content: '';
+	position: absolute;
+	top: 40%;
+	border-radius: 50%;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: red;
+	/*left: 50%;*/
+	left: -14.5%;
+	z-index: 3;
+}
+.timeline-divider{
+	position: absolute;
+	height: 80%;
+	width: 0;
+	border: 3px dashed #0096fa6b;
+	top:10%;
+	left: 50%;
+}
+
+.timeline-traveller{
+	position: sticky;
+	top: 25%;
+	transform:rotate(90deg);
+	z-index: 10;
+}
+
+
+
+/*Portfolio Section*/
+
+#portfolio-container{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height:50%;
+	padding: 0 50px;
+	margin-bottom: 2%;
+	justify-content: space-around;
+	margin: 1rem;
+}
+
+
+/*Contact*/
+
+#contact{
+	height: auto;
+	width:auto;
+	margin:40px;
+	border:2px solid black;
+	background: linear-gradient(to left,#403066,#2857a4);
+	overflow-wrap:break-word;
+	/*display: flex;*/
+}
+
+/*#contact span{
+	color: white;
+	 margin-left:35%;
+    font-size:2rem;
+    font-weight:10rem;
+    font-style:sans-serif;
+}
+*/
+
+.contact-container{
+	 width: 90%;
+      min-width: 725px;
+      margin-bottom: 4rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      font-size: 1.25em;
+}
+
+.contact-container .aside{
+	outline: 'none';
+}
+#contact span{
+	color: white;
+}
+
+.aside form{
+     padding: 10px;
+}
+
+#aside{
+	display:block;
+	margin-left: 3%;
+	width: 25%;
+}
+
+/*.aside{
+	display:block;
+}
+*/
+/*.aside h4 {
+  color: white;
+  margin-bottom: 1px solid white;
+}
+*/
+.aside-section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.aside-section span, h3{
+	color: white;
+}
+
+/*.aside-section h4 i{
+	color: white;
+}*/
